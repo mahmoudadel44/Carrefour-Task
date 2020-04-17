@@ -1,0 +1,260 @@
+/* start navbar style */
+.navbar {background-color: #0056A8;}
+.navbar .links {display: flex;}
+.navbar ul li img {border-radius: 5px;}
+.navbar ul li a {color:#FFF;}
+.navbar .navbar-nav .dropdown a {color:#FFF;}
+/* end navbar style */
+
+/* start categories style */
+.categories .carfourImg {padding-left: 0px;}
+.categories .dropdown a{
+    border:1px solid #DDD;
+    color:#0056A8;
+    font-weight: bold;
+    padding: 8px;
+}
+.categories .forms {display: flex;}
+.categories .forms .dropdown .dropdown-toggle {outline:none; box-shadow:none;}
+.categories .forms .dropdown .dropdown-toggle:focus {border-color: #CCC;}
+.categories .form-inline .form-control{
+    width:420px;
+    padding:20px;
+    margin-bottom: 25px;
+    border-left: none;
+    outline:0px !important;
+    box-shadow: none !important;
+}
+.form-control:focus {border-color: #CCC;}
+.categories .features {display: flex;}
+.categories .features .search,.categories .features .shopping,
+.categories .features .money,.categories .features .login{
+    width:48px;
+    height:45px;
+    background-color: goldenrod;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 25px;
+}
+.categories .features .search {background-color:#0056A8;}
+.categories .features .login {background-color:#0056A8;}
+.categories .features .shopping {background-color: #F62434;}
+.categories .features .login {width:100px;}
+.categories .features .login span {color:#FFF;}
+.categories .features .money {background-color:#2E353C}
+.categories .features .money:after{
+    content:'';
+    display:block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 15px 15px 15px;
+    position: absolute;
+    border-color: transparent #2E353C transparent transparent;
+    bottom: 32px;
+    right: 226px;
+}
+.categories .features i {color:#FFF;}
+.categories hr {color:#CCC;height: 1px;margin-top: 25px;}
+/* end categories style */
+
+/* start services style */
+.services .servicesList {display: flex;}
+.services .servicesList li {margin-right: 38px;}
+.services .servicesList li i {margin-right: 8px;color:#F63847;}
+.services .servicesList li span {color: #8c8989;}
+.services .servicesList .dots {font-size: 25px;padding: 3px;margin-left: 28px;}
+/*end services style */
+
+/*start header style */
+/* Carousel  */
+.header .carousel {position: relative;}
+.header .carousel-caption{
+    bottom: 80px;
+    background-color:#FFF;
+    padding-right: 20px;
+    padding-left: 20px;
+    color:#8c8989;
+    height: 320px;
+    width: 43%;
+    left: 0px;
+    text-align: left;
+    padding: 28px;
+    border-bottom: 8px solid #F63847;
+}
+.header .carousel-caption h1{
+    color:black;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+.header .carousel-caption span {color:#0056A8;}
+.header .carousel-caption p {margin-left: 100px;margin-top: 10px;}
+.header .carousel-caption .chevron{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0056A8;
+    float: right;
+    text-align: center;
+}
+.header .carousel-caption .chevron i {padding-top: 18px;color:#FFF;}
+.header .carousel-indicators {position: absolute;left:65%;bottom: 50px;}
+.header .carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border:1px solid #EEE;
+    color:red;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+.header .carousel-indicators .active {background-color: red;}
+.header .carousel-indicators .active {width: 17px;height: 17px;}
+.header .img-responsive, .thumbnail > img, .thumbnail a >
+ img, .carousel-inner >.item > img, .carousel-inner > .item > a > img { width: 100%;}
+/*end header style */
+
+/* start imagesslider style */ 
+.slick-prev:before,
+.slick-next:before {color: #CCC!important;}
+.baby {width:200px;height: 200px;}
+.online_shopping {margin: 25px;}
+/*end imagesslider style */
+
+/* start features style */
+.features .media .free { 
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+     background-color: #0056A8;
+}
+
+.features .media  i {margin: auto;padding: 20px 15px;color: #fff;}
+.features .media h5 {text-transform: uppercase;}
+.features .media span {color:#9FA4A4;font-size: 18px;}
+/* end features style */
+
+/* start markets style */
+.allmarkets h3 {text-transform: uppercase;}
+.allmarkets p {color:#ec4250;font-size: 27px;}
+.allmarkets span{
+    position: absolute;
+    left: 25%;
+    bottom: 38%;
+    color: #FFF;
+    font-size: 35px;
+}
+/* end markets style */
+
+/* start deals style */
+.deals .slick-prev:before,.slick-next:before {color: #CCC!important;}
+.deals .nav .nav-item a,
+.ourproducts .nav .nav-item a {color:#747979;font-size: 20px;}
+.deals .card-header,
+.ourproducts .card-header{font-size: 20px;}
+.deals .card-header span,.ourproducts .card-header span{color:#F62D3D}
+.deals .card img,.ourproducts .card img  {padding : 25px}
+.deals .card .price span:first-child,
+.ourproducts .card .price span:first-child{font-size: 20px;padding-left: 80px;color: #0069D9;}
+.deals .card .price span:last-child,
+.ourproducts .card .price span:last-child{color: #ccc;
+        text-decoration: line-through;
+        padding-left: 30px;
+        font-size: 18px;
+}
+.deals .card-body .card-text,
+.ourproducts .card-body .card-text {font-size: 18px;}        
+.deals .card-body .btn-secondary,
+.ourproducts .card-body .btn-secondary
+{
+    width: 150px;
+    background-color: #fff;
+    color: #9c9c8f;
+    border: 1px solid #e8e5e5;
+    text-align: left;
+    font-size: 20px;
+    outline:0px !important;
+    box-shadow: none !important;
+}
+.deals .card-body .dropdown-toggle::after,
+.ourproducts .card-body .dropdown-toggle::after
+{color: black;margin-left: 95px;}
+.deals .card-body .btn-primary,
+.ourproducts .card-body .btn-primary
+{
+    background-color: red;
+    color: #fff;
+    width: 67px;
+    border: none;
+    padding: 10px;
+    outline:0px !important;
+    box-shadow: none !important;
+}
+.deals .card .date,
+.ourproducts .card .date{
+    background-color: #F6F8F9;
+    color: #64696A;
+    width: 235px;
+    margin: auto;
+    padding: 15px 15px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+/* end deals style */
+
+/* start products style */
+.products {position: relative;}
+.products .info{
+    position: absolute;
+    left: 30%;
+    bottom: 10%;
+    color: #FFF;
+}
+.products .productImage{
+    border-radius:3px;
+    background-color: #090704;
+    opacity: .7;
+}
+.products .info a {color: red; text-decoration: underline;}
+/* end products style */
+
+/* start ourProducts style */
+.ourproducts {background-color: #F6F8F9;}
+.ourproducts .slick-slider .slick-list .slick-track {width: 1100px;}
+.ourproducts .slick-slider .slick-list .slick-track .slick-slide {width: 500px !important;} 
+.ourproducts .slick-track {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: stretch;
+} 
+.ourproducts .slick-prev:before,.slick-next:before {color: red;}
+.ourproducts .slick-track { width: 1100px !important;}
+/* ourproducts  */
+/* end OurProducts style */
+
+/*start our_footer*/
+.footer a {display: flex;color:#727A7B;text-decoration: none;}
+.footer .copyright {margin-top: 50px;font-size: 18px; font-weight: bold;}
+.footer .store , .footer .subscribe
+{
+    background-color: #F6F8F9;
+    padding: 17px;
+    margin-top: 35px;
+    color: #626E6E;
+    font-size: 22px;
+}
+.footer .store i {color: #0053A1;}
+.footer .store p , .footer .subscribe p {display: inline-block;margin-left: 15px;}
+.footer .store span , .footer .subscribe span {color: #212529;}
+.footer button{background-color: #0053A1;color: #fff; font-size: 17px;}
+.footer .subscribe i {color: #F6303F;}
+.footer .input-group{text-align: center;padding: 3px;box-shadow: 0px 0px 3px #a6a5a5 ;}
+.footer .input-group .form-control {padding: 5px;border: none;}
+.footer .input-group .sub {background-color: #fff;color: #F6303F;padding: 5px;border: none;}
+.footer .power-footer p{font-size: 17px; color: #4A4E4E;}
+.footer .power-footer{text-align: right;}
+/* end our_footer*/
+
